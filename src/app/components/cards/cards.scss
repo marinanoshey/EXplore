@@ -1,0 +1,36 @@
+// .card-container {
+//   // margin: 20vh 15vh;
+//   display: flex;
+//   // width: 30rem;
+//   flex-wrap: wrap;
+//   // justify-content: center;
+// }
+
+// nz-card {
+//     display: inline;
+// }
+
+
+
+.card{
+  border-radius: 12px;
+  margin: 20px;
+  // width: 20rem;
+  // height: 18rem;
+  // padding: 0 !important;
+  background-color: #d0e0e3
+;
+}
+
+
+
+.card-footer{
+  display: flex;
+  // justify-content: flex-end;
+  // margin-top: 10px;
+}
+
+.btn{
+  margin-left: auto;
+  margin-top: auto;
+}

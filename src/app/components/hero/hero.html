@@ -1,0 +1,14 @@
+  <section id="home">
+    <nz-carousel nzAutoPlay [nzEffect]="'fade'">
+      @for (item of images; track item.src) {
+        <div nz-carousel-content>
+          <div class="overlay"></div>
+          <img [src]="item.src" [alt]="item.alt" class="carousel-img" />
+          <div class="hero-content">
+            <h1>Beyond the Horizon</h1>
+            <p>Adventure awaits in every corner of the globe.</p>
+          </div>
+        </div>
+      }
+    </nz-carousel>
+  </section>

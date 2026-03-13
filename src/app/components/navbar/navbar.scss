@@ -1,0 +1,17 @@
+    .navbar { position: fixed; top: 0; width: 100%; z-index: 1000; display: flex; justify-content: space-between; padding: 20px 80px; background: transparent; }
+    .nav-links { list-style: none; display: flex; gap: 40px; }
+    .nav-links a, .logo { color: white; text-decoration: none; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+   
+.book-btn {
+      padding: 5px 10px;
+      background: #1a1a1a;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .book-btn:hover {
+      background: #524442;
+    }
